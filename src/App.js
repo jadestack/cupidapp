@@ -178,10 +178,6 @@ function App() {
           transition={{ duration: 0.5 }}
         >
           <div className="system-header">
-            <div className="status-bar">
-              <span className="status-dot"></span>
-              <span className="status-text">SECURE CONNECTION ESTABLISHED</span>
-            </div>
             <h1 className="system-title">◆ CLASSIFIED DATABASE ACCESS ◆</h1>
             <p className="system-subtitle">Security Level: MAXIMUM</p>
           </div>
@@ -294,10 +290,6 @@ function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          <h2 className="game-title">
-            MEMORY RECONSTRUCTION
-          </h2>
-          <p className="game-subtitle">Match all pairs to unlock the next layer</p>
           <div className="progress-bar">
             <motion.div 
               className="progress-fill" 
@@ -344,7 +336,7 @@ function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          <h2 className="cipher-title">DECRYPTION PROTOCOL</h2>
+          <h2 className="cipher-title">DECRYPT MO TO</h2>
           <div className="cipher-box">
             <div className="encrypted-message">
               <motion.p 
@@ -535,7 +527,7 @@ function App() {
                 You just made me the happiest person! 💕
               </p>
               <p>I promise to make this Valentine's Day unforgettable.</p>
-              <p>Thank you for saying yes, Mara. You mean everything to me.</p>
+              <p>Thank you for saying yes, Toowie. You mean everything to me.</p>
               <motion.p 
                 className="signature"
                 whileHover={{ scale: 1.05 }}
@@ -552,7 +544,7 @@ function App() {
                   style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', flexWrap: 'wrap' }}
                 >
                   <IoTrophy style={{ color: '#FFD700', fontSize: '24px' }} />
-                  SECRET ACHIEVEMENT UNLOCKED: Master Detective! You found all {secretsFound} secrets!
+                  SECRET ACHIEVEMENT UNLOCKED:You found all {secretsFound} secrets!
                   <IoSparkles style={{ color: '#FFD700', fontSize: '24px' }} />
                 </motion.p>
               )}
